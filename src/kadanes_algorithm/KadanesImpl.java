@@ -1,6 +1,6 @@
 package kadanes_algorithm;
 
-class KadanesImpl {
+public class KadanesImpl {
 
 	static class Solution{
 		Solution(){
