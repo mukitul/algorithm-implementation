@@ -17,7 +17,6 @@ public class GreedyKnapsack {
 			double currWeight = maxWeight;
 			int i;
 			for(i=0;i<item;i++) {
-				
 				if(currWeight-w[i]>=0) {
 					x[i]=1.0;
 					currWeight = currWeight - w[i];
