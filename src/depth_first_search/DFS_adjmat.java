@@ -30,15 +30,14 @@ public class DFS_adjmat {
 	}
 
 	public static void main(String[] args) {
-		int vertex = 4;
+		int vertex = 5;
 		DFS d = new DFS(vertex);
 		d.addEdge(0, 1);
 		d.addEdge(0, 2);
-		d.addEdge(2, 0);
-		d.addEdge(1, 2);
-		d.addEdge(2, 3);
-		d.addEdge(3, 3);
-		d.dfs(2);
+		d.addEdge(1, 3);
+		d.addEdge(1, 4);
+	
+		d.dfs(0);
 		
 	}
 
