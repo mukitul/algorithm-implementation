@@ -8,3 +8,19 @@
 
 3) [Breadth First Search (BFS) Algorithm](src/breadth_first_search)
     - Implementation (Adjacency Matrix): [Java](src/breadth_first_search/BFS_adjmat.java)
+
+
+## Some Frequently Used Shortcuts in VSCode
+i) Replace All Matching Occurrences of Text: `Ctrl+F2`
+
+ii) Duplicate Line: `Ctrl+Shift+D`
+
+iii) Delete Previous Word: `Ctrl+Backspace`
+
+iv) Open a File By Matching Text: `Ctrl+T`
+
+v) Format Texts in File: `Alt+Shift+F`
+
+
+# VSCode Shortcut Reference
+- [VSCode Shortcut](https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/)
