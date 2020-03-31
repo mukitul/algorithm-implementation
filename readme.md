@@ -17,6 +17,13 @@
     - Implementation (Adjacency Matrix): [Java](src/breadth_first_search/BFS_adjmat.java)
 
 
+
+4) [Binary Search Tree (BST) Algorithm](src/bst)
+    - Implementation: [Java](src/bst/BinarySearchTree.java)
+
+
+
+
 ## Some Frequently Used Shortcuts in VSCode
 i) Replace All Matching Occurrences of Text: `Ctrl+F2`
 
