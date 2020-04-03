@@ -14,7 +14,7 @@
     - Implementation (Adjacency Matrix): [C](src/depth_first_search/DFS_adjmat.c), [Java](src/depth_first_search/DFS_adjmat.java), [JavaScript](src/depth_first_search/DFS_adjmat.js), [Go](src/depth_first_search/DFS_adjmat.go), [C#](src/depth_first_search/DFS_adjmat..cs)
 
 3) [Breadth First Search (BFS) Algorithm](src/breadth_first_search)
-    - Implementation (Adjacency Matrix): [Java](src/breadth_first_search/BFS_adjmat.java)
+    - Implementation (Adjacency Matrix): [Java](src/breadth_first_search/BFS_adjmat.java), [Go](src/breadth_first_search/BFS_adjmat.go)
 
 
 
