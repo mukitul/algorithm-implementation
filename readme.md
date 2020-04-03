@@ -22,6 +22,12 @@
     - Implementation: [Java](src/bst/BinarySearchTree.java)
 
 
+5) Sorting
+    * Merge Sort: [C](src/sorting/merge.c)
+    * Quick Sort: [C](src/sorting/quick.c)
+    * Sorting Comparison (Bubble, Selection and Insertion): [C](src/sorting/sorting-comparison.c)
+
+
 
 
 ## Some Frequently Used Shortcuts in VSCode
