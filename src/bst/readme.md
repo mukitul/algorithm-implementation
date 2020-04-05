@@ -9,3 +9,8 @@ Binary Search Tree (BST) is a tree data structure having following properties:
 |                              | Insert | Delete | Search |
 |------------------------------|:------:|:------:|:------:|
 | Time Complexity (Worst Case) |  O(n)  |  O(n)  |  O(n)  |
+
+
+## BST Operations
+### Insert
+### Search

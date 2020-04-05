@@ -19,7 +19,7 @@
 
 
 4) [Binary Search Tree (BST) Algorithm](src/bst)
-    - Implementation: [Java](src/bst/BinarySearchTree.java)
+    - Implementation (Insert, Search): [C](src/bst/BinarySearchTree.c), [Java](src/bst/BinarySearchTree.java)
 
 
 5) [Sorting](src/sorting)
