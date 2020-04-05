@@ -38,6 +38,16 @@ node insertNode(node root, int x)
     return root;
 }
 
+node search(node root, int x)
+{
+    if (root->data == x || root == NULL)
+        return root;
+
+    if (root->data > x)
+        return search(root->left, x);
+
+    return search(root->right, x);
+}
 void preOrderTraversal(node root)
 {
     if (root == NULL)
@@ -60,6 +70,14 @@ int main()
     insert(7);
     insert(1);
     insert(3);
-    preOrderTraversal(root);
+    //preOrderTraversal(root);
+    node res = search(root, 1);
+    if (res == NULL)
+        printf("not found");
+    else
+    {
+        printf("%d ", res->data);
+    }
+
     return 0;
 }
