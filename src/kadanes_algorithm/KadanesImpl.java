@@ -13,7 +13,7 @@ public class KadanesImpl {
 			max_global = max_curr = ar[0];
 
 			for (int i = 1; i < ar.length; i++) {
-				max_curr = Math.max(max_curr, max_curr + ar[i]);
+				max_curr = Math.max(ar[i], max_curr + ar[i]);
 
 				if (max_curr > max_global) {
 					max_global = max_curr;
