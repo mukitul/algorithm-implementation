@@ -13,7 +13,7 @@ public class Program
 			max_global = max_curr = ar[0];
 
 			for (int i = 1; i < ar.Length; i++) {
-				max_curr = Math.Max(max_curr, max_curr + ar[i]);
+				max_curr = Math.Max(ar[i], max_curr + ar[i]);
 
 				if (max_curr > max_global) {
 					max_global = max_curr;
