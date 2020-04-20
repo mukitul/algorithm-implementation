@@ -1,1 +1,1 @@
-# Depth First Search
+# How Depth First Search Works
