@@ -30,14 +30,14 @@ func bfs(s int, visited [5]int) {
 	queue = enqueue(queue, s)
 
 	for size(queue) > 0 {
-		
+
 		var a int
 		a = peek(queue)
 		fmt.Println(a)
 		visited[a] = 1
-		
+
 		queue = dequeue(queue)
-		
+
 		for i := 0; i < 5; i++ {
 			if mat[a][i] == 1 && visited[i] == 0 {
 				queue = enqueue(queue, i)

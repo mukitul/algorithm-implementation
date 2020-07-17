@@ -46,7 +46,7 @@ public class BFS_adjmat {
 		bfst.addEdge(1, 3);
 		bfst.addEdge(2, 4);
 		bfst.addEdge(2, 5);
-		
+
 		bfst.BFS(0);
 	}
 

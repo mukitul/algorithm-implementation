@@ -11,8 +11,8 @@ func max(a int, b int) int {
 
 func kadane(ar []int, size int) int {
 	//var i int;
-	var max_curr int;
-	var max_glo int;
+	var max_curr int
+	var max_glo int
 	max_curr = ar[0]
 	max_glo = ar[0]
 	for i := 0; i < size; i++ {

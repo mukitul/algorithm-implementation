@@ -1,7 +1,7 @@
 package depth_first_search;
 
 public class DFS_adjmat {
-	
+
 	static class DFS {
 		boolean visited[];
 		int vertex;
@@ -12,16 +12,16 @@ public class DFS_adjmat {
 			mat = new int[vertex][vertex];
 			visited = new boolean[vertex];
 		}
-		
-		void addEdge(int u, int v){
-			mat[u][v]=1;
+
+		void addEdge(int u, int v) {
+			mat[u][v] = 1;
 		}
-		
-		void dfs(int v){
+
+		void dfs(int v) {
 			System.out.println(v);
-			visited[v]=true;
-			for(int i=0;i<vertex;i++){
-				if(mat[v][i]==1 && !visited[i]){
+			visited[v] = true;
+			for (int i = 0; i < vertex; i++) {
+				if (mat[v][i] == 1 && !visited[i]) {
 					dfs(i);
 				}
 			}
@@ -36,9 +36,9 @@ public class DFS_adjmat {
 		d.addEdge(0, 2);
 		d.addEdge(1, 3);
 		d.addEdge(1, 4);
-	
+
 		d.dfs(0);
-		
+
 	}
 
 }

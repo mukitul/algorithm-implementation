@@ -1,7 +1,7 @@
 package bst;
 
 class BinarySearchTree {
-    
+
     class Node {
         int val;
         Node left, right;
@@ -13,7 +13,6 @@ class BinarySearchTree {
         }
     }
 
-    
     Node root;
 
     BinarySearchTree() {
