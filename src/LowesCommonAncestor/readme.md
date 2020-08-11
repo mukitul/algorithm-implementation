@@ -1,1 +1,0 @@
-# How Lowest Common Ancestor Works

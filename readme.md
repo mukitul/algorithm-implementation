@@ -32,3 +32,6 @@
 
 4) [Binary Search Tree (BST) Algorithm](src/bst)
     - Implementation (Insert, Search): [C](src/bst/BinarySearchTree.c), [Java](src/bst/BinarySearchTree.java)
+
+5) [Lowest Common Ancestpr Algorithm](src/lowest_common_ancestor)
+    - Implementation (Naive Approach): [Java](src/lowest_common_ancestor/LCANaiveApproach.java)
